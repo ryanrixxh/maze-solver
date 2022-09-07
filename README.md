@@ -6,13 +6,13 @@ path.
 
 # Input File
 ## Positions
-- The starting line of the input text file indicated the x and y dimensions of the maze area
+- The starting line of the input text file indicates the x and y dimensions of the maze area
 - The second line indicates the starting position
 - The third line indicates the desired ending position
 
 ## The Map
 - The map input must match the dimensions specified in line 1 or it will produce an error
-- Each number on the grid denotes a potential movement cost. For example is a grid number is 5, it will be of movement cost 5 and the solver will consider this a more
+- Each number on the grid denotes a potential movement cost. For example if a grid number is 5, it will be of movement cost 5 and the solver will consider this more
 'difficult terrain' than a grid number of 1. 
 - X represents the walls of the maze. Movement cannot occur in these sections.
 
